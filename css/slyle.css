@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-  padding: 6.4rem 0 6.4rem;
+  padding: 6.4rem 0;
 }
 
 .header .container {
@@ -59,4 +59,35 @@ body {
 
 .header__socials-icon:not(:last-child) {
   margin-right: 2rem;
+}
+
+.footer {
+  background: #030102;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__menu {
+  display: flex;
+  padding-left: 0;
+  color: #fff;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer li:not(:last-child) {
+  margin-right: 2.5rem;
 }
