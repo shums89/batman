@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
   padding-top: 18.7rem;
+  padding-bottom: 10.4rem;
   background: url('../img/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -154,6 +155,43 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   background-color: #151515;
   border-radius: 0.8rem;
+}
+
+.main-slider__wrap {
+  max-width: 41.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.main-slider__slide {
+  position: relative;
+  width: 16.4rem;
+  height: 10.5rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.main-slider__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-slider__slide span {
+  position: absolute;
+  left: 1.2rem;
+  bottom: 0.6rem;
+  transform: translate(0, 0);
+  font-size: 1rem;
+  font-weight: 1.2;
+}
+
+.main-slider__arrow {
+  width: 3.2rem;
+  height: 2.2rem;
+  margin-left: 2.8rem;
+  flex-shrink: 0;
+  cursor: pointer;
 }
 
 .footer {
