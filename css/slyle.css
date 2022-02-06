@@ -134,11 +134,38 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
+.main__description-wrap {
+  display: flex;
+  align-items: center;
+}
+
 .main__description {
   max-width: 52.8rem;
   margin-bottom: 4.1rem;
   font-size: 1.4rem;
   line-height: 1.5;
+}
+
+.main__button-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13.2rem;
+  height: 13.2rem;
+  margin-left: 33.1rem;
+  border-radius: 50%;
+  background-color: #391917;
+  cursor: pointer;
+}
+
+.main__button-dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: #151515;
 }
 
 .main__button {
